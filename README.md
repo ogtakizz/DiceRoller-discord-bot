@@ -5,7 +5,8 @@ Um bot de Discord focado em rolagens de dados para RPG, com sistema de "escuta p
 ## 🚀 Funcionalidades
 
 - **Escuta Passiva:** O bot escuta o chat e detecta rolagens no meio de frases naturais (ex: "Vou atacar com d20 + 5").
-- **Parser de Dados Inteligente:** - Suporta formatos como `d20`, `2d10`, `1d100 + 10`.
+- **Parser de Dados Inteligente:**
+  - Suporta formatos como `d20`, `2d10`, `1d100 + 10`.
   - Aceita espaços opcionais entre o dado e o modificador (`1d20+5` ou `1d20 + 5`).
   - Assume automaticamente 1 dado caso a quantidade seja omitida (`d20` = `1d20`).
 - **Visual com Embeds:** Respostas organizadas em mensagens com bordas coloridas.
