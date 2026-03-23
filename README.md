@@ -10,7 +10,8 @@ Um bot de Discord focado em rolagens de dados para RPG, com sistema de "escuta p
   - Aceita espaços opcionais entre o dado e o modificador (`1d20+5` ou `1d20 + 5`).
   - Assume automaticamente 1 dado caso a quantidade seja omitida (`d20` = `1d20`).
 - **Visual com Embeds:** Respostas organizadas em mensagens com bordas coloridas.
-- **Destaque de Críticos:** - **Sucesso Crítico:** Borda verde e texto em negrito para o valor máximo do dado.
+- **Destaque de Críticos:**
+  - **Sucesso Crítico:** Borda verde e texto em negrito para o valor máximo do dado.
   - **Falha Crítica:** Borda vermelha e texto em negrito para o valor 1.
 - **Ordenação Automática:** Os resultados individuais dos dados são exibidos em ordem decrescente.
 
