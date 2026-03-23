@@ -15,22 +15,20 @@ Um bot de Discord focado em rolagens de dados para RPG, com sistema de "escuta p
 
 ## 🛠️ Tecnologias e Conceitos
 
-- **Java 17+**: Linguagem base do projeto.
+- **Java 21+**: Linguagem base do projeto.
 - **JDA (Java Discord API)**: Biblioteca para integração com a API do Discord.
 - **Regex (Expressões Regulares)**: Utilizado para o parsing e extração de dados das mensagens.
 - **Maven**: Gerenciamento de dependências.
 - **Dotenv**: Gerenciamento de variáveis de ambiente para proteção do Token.
-- **Princípios SOLID**: Aplicação do Princípio de Responsabilidade Única (SRP), separando a lógica de cálculo da lógica de interface do bot.
-
-## 📂 Estrutura do Projeto
-
-O código foi organizado seguindo boas práticas de modularização:
-- `BotListener`: Responsável por capturar eventos do Discord e gerenciar a interface (Embeds).
-- `CalculaDados`: Motor de cálculo isolado, responsável pela geração de números aleatórios e processamento da rolagem.
 
 ## 📦 Como rodar localmente
 
 ### 1. Clonar o repositório
 ```bash
-git clone [https://github.com/ogtakizz/DiceRoller-discord-bot](https://github.com/ogtakizz/DiceRoller-discord-bot)
-cd DiceRoller-discord-bot
+git clone https://github.com/ogtakizz/DiceRoller-discord-bot
+cd DiceRoller-discord-bot```
+
+### 2. Criar e Configurar o Token do Discord
+ - Para o bot funcionar, você precisa registrar uma aplicação no Discord:
+    - 1. Acesse o [Discord Developer Portal](https://discord.com/developers/applications).
+    - 2. Clique em **"New Application"** e escolha um nome.
