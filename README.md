@@ -46,3 +46,13 @@ cd DiceRoller-discord-bot
 - **2.** Em **Scopes**, marque **`bot`** e **`applications.commands`**.
 - **3.** Em **Bot Permissions**, marque **`Send Messages`**, **`Read Message History`** e **`Embed Links`**.
 - **4.** Copie a URL gerada, cole no seu navegador, e autorize o bot em seu servidor.
+
+### 4. Compilar e Executar
+* Para compilar o projeto e gerar o arquivo executável com todas as dependências embutidas, rode o comando do Maven:
+```bash 
+   mvn clean package
+   ```
+* Após a compilação, inicie o bot executando o arquivo `.jar` gerado dentro da pasta `target` (ajuste o nome do arquivo conforme a versão):
+```bash
+   java -jar target/PimbolasDados-1.0-SNAPSHOT.jar
+   ```
